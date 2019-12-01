@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./List.css";
+import NoData from "../utilty/NoData";
 
 class List extends React.Component {
   static propTypes = {
@@ -27,4 +28,4 @@ class List extends React.Component {
   }
 }
 
-export default List;
+export default NoData(List, "contacts");

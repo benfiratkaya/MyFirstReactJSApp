@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+import Loader from "../utilty/Loader";
 import Form from "../contacts/Form";
 import List from "../contacts/List";
 import Filter from "../contacts/Filter";
@@ -20,4 +21,4 @@ Contacts.propTypes = {
   searchOnChange: PropTypes.func.isRequired
 };
 
-export default Contacts;
+export default Loader(Contacts, "contacts");
