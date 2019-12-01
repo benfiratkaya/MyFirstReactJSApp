@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import Loader from "../utilty/Loader";
+import Loader from "../utility/Loader";
 import Form from "../contacts/Form";
 import List from "../contacts/List";
 import Filter from "../contacts/Filter";

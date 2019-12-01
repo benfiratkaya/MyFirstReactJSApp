@@ -1,7 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 import "./List.css";
-import NoData from "../utilty/NoData";
+import NoData from "../utility/NoData";
 
 class List extends React.Component {
   static propTypes = {
